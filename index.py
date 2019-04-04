@@ -72,10 +72,10 @@ def getInitialConfigs(params):
         }
     
     if 'vendor' not in params:
-        params['vendor'] = 'stryberventures';
+        params['vendor'] = 'vendorname';
     
     if 'repo' not in params:
-        params['repo'] = 'RoadRunnerPhpApi';
+        params['repo'] = 'reponame';
         
     if 'from' not in params:
         params['from'] = 'local';
